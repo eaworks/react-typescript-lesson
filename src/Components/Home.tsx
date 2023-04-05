@@ -1,8 +1,11 @@
 import React from 'react'
+type DataComing = {
+    name: string
+}
 
-function Home() {
+function Home(props: DataComing) {
     return (
-        <div>Home</div>
+        <div>{props.name} Egitime hosgeldiniz</div>
     )
 }
 
