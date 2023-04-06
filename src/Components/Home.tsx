@@ -1,11 +1,12 @@
 import React from 'react'
 type DataComing = {
-    name: string
+    name: string;
+    courseNumber: number;
 }
 
 function Home(props: DataComing) {
     return (
-        <div>{props.name} Egitime hosgeldiniz</div>
+        <div>{props.name} Egitime hosgeldiniz : {props.courseNumber}</div>
     )
 }
 
