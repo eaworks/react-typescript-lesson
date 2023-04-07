@@ -1,12 +1,14 @@
 
 import './App.css';
+import ContextExemple from './Components/ContextExemple';
 // import EventActions from './Components/EventActions';
 // import Home from './Components/Home';
 // import Instructor from './Components/Instructor';
 // import InstructorList from './Components/InstructorList';
 // import Request from './Components/Request';
 // import LoginCheck from './Components/LoginCheck';
-import ReducerExemple from './Components/ReducerExemple';
+// import ReducerExemple from './Components/ReducerExemple';
+import { ThemeContextProvider } from './Components/ThemeContext';
 
 function App() {
   // const instructor = {
@@ -34,8 +36,11 @@ function App() {
       <InstructorList instructorNameLastNameList={instructorList} />
       <Request status="success" />
       <EventActions /> 
-      <LoginCheck /> */}
-      <ReducerExemple />
+      <LoginCheck /> 
+      <ReducerExemple />*/}
+      <ThemeContextProvider>
+        <ContextExemple />
+      </ThemeContextProvider>
     </div>
   );
 }
