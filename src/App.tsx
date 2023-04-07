@@ -1,6 +1,7 @@
 
 import './App.css';
-import ContextExemple from './Components/ContextExemple';
+// import ContextExemple from './Components/ContextExemple';
+import RefExample from './Components/RefExample';
 // import EventActions from './Components/EventActions';
 // import Home from './Components/Home';
 // import Instructor from './Components/Instructor';
@@ -8,7 +9,7 @@ import ContextExemple from './Components/ContextExemple';
 // import Request from './Components/Request';
 // import LoginCheck from './Components/LoginCheck';
 // import ReducerExemple from './Components/ReducerExemple';
-import { ThemeContextProvider } from './Components/ThemeContext';
+// import { ThemeContextProvider } from './Components/ThemeContext';
 
 function App() {
   // const instructor = {
@@ -37,10 +38,11 @@ function App() {
       <Request status="success" />
       <EventActions /> 
       <LoginCheck /> 
-      <ReducerExemple />*/}
+      <ReducerExemple />
       <ThemeContextProvider>
         <ContextExemple />
-      </ThemeContextProvider>
+      </ThemeContextProvider>*/}
+      <RefExample />
     </div>
   );
 }
