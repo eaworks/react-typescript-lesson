@@ -1,10 +1,7 @@
 import React from 'react'
-type instructorListYtpe = {
-    instructorNameLastNameList: {
-        firstName: string;
-        lastName: string;
-    }[];
-}
+import { instructorListYtpe } from './propstypes'
+
+
 
 function InstructorList(props: instructorListYtpe) {
     return (

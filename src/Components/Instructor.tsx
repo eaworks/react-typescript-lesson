@@ -1,10 +1,6 @@
 import React from 'react'
-type instructorProp = {
-    instructorNameLastName: {
-        firstName: string;
-        lastName: string;
-    }
-}
+import { instructorProp } from './propstypes'
+
 
 function Instructor(props: instructorProp) {
     return (
