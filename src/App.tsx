@@ -5,7 +5,8 @@ import './App.css';
 // import Instructor from './Components/Instructor';
 // import InstructorList from './Components/InstructorList';
 // import Request from './Components/Request';
-import LoginCheck from './Components/LoginCheck';
+// import LoginCheck from './Components/LoginCheck';
+import ReducerExemple from './Components/ReducerExemple';
 
 function App() {
   // const instructor = {
@@ -32,8 +33,9 @@ function App() {
       <Instructor instructorNameLastName={instructor} />
       <InstructorList instructorNameLastNameList={instructorList} />
       <Request status="success" />
-      <EventActions /> */}
-      <LoginCheck />
+      <EventActions /> 
+      <LoginCheck /> */}
+      <ReducerExemple />
     </div>
   );
 }
